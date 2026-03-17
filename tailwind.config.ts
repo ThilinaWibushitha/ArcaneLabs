@@ -11,7 +11,18 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        brand: {
+          red: "#FF0000",
+          blue: {
+            light: "#44ACFF",
+            navy: "#000080",
+          },
+          white: "#FFFFFF",
+        }
       },
+      backgroundImage: {
+        'glass-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01))',
+      }
     },
   },
   plugins: [],
