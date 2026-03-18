@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://arcanelabs.com"),
+  metadataBase: new URL("https://arcanelabs.lk"),
   title: {
     default: "Aracane Labs | Custom Software, Made for You!",
     template: "%s | Aracane Labs",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Aracane Labs | Custom Software, Made for You!",
     description:
       "We build custom POS systems, websites, and mobile apps tailored to your business needs.",
-    url: "https://arcanelabs.com",
+    url: "https://arcanelabs.lk",
     siteName: "Aracane Labs",
     locale: "en_US",
     type: "website",

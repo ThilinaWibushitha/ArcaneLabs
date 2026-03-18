@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: "*",
             allow: "/",
         },
-        sitemap: "https://arcanelabs.com/sitemap.xml",
+        sitemap: "https://arcanelabs.lk/sitemap.xml",
     };
 }
