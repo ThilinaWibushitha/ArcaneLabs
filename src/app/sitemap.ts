@@ -1,25 +1,25 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = "https://arcanelabs.lk";
+    const baseUrl = "https://www.arcanelabs.lk";
 
     return [
         {
             url: baseUrl,
             lastModified: new Date(),
-            changeFrequency: "monthly",
+            changeFrequency: "weekly",
             priority: 1,
         },
         {
             url: `${baseUrl}/services`,
             lastModified: new Date(),
-            changeFrequency: "monthly",
+            changeFrequency: "weekly",
             priority: 0.8,
         },
         {
             url: `${baseUrl}/contact`,
             lastModified: new Date(),
-            changeFrequency: "monthly",
+            changeFrequency: "weekly",
             priority: 0.8,
         },
     ];

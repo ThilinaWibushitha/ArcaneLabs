@@ -23,20 +23,20 @@ export async function POST(req: NextRequest) {
         });
 
         await transporter.sendMail({
-            from: `"Aracane Labs Website" <${process.env.CONTACT_RECEIVER_EMAIL || "arcanelabs.info@gmail.com"}>`,
+            from: `"Arcane Labs Website" <${process.env.CONTACT_RECEIVER_EMAIL || "arcanelabs.info@gmail.com"}>`,
             to: process.env.CONTACT_RECEIVER_EMAIL || "arcanelabs.info@gmail.com",
             replyTo: email,
             subject: `New Contact Form Message from ${name}`,
             html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #FF0000;">New Message from Aracane Labs Website</h2>
+          <h2 style="color: #FF0000;">New Message from Arcane Labs Website</h2>
           <hr style="border: 1px solid #eee;" />
           <p><strong>Name:</strong> ${name}</p>
           <p><strong>Email:</strong> ${email}</p>
           <p><strong>Message:</strong></p>
           <p style="background: #f5f5f5; padding: 15px; border-radius: 8px;">${message}</p>
           <hr style="border: 1px solid #eee;" />
-          <p style="color: #888; font-size: 12px;">Sent from the Aracane Labs portfolio contact form.</p>
+          <p style="color: #888; font-size: 12px;">Sent from the Arcane Labs portfolio contact form.</p>
         </div>
       `,
         });

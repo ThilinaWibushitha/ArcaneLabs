@@ -30,7 +30,7 @@ export default function Navbar() {
                     <div className="relative w-[150px] h-[50px]">
                         <Image
                             src="/logo.png"
-                            alt="Aracane Labs Logo"
+                            alt="Arcane Labs Logo"
                             fill
                             className="object-contain"
                             priority

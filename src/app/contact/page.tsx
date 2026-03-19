@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
     title: "Contact Us",
     description:
-        "Get in touch with Aracane Labs. Call +94 703 329 936 or email arcanelabs.info@gmail.com for custom software solutions.",
+        "Get in touch with Arcane Labs. Call +94 703 329 936 or email arcanelabs.info@gmail.com for custom software solutions.",
 };
 
 export default function ContactPage() {

@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
     title: "Our Services",
     description:
-        "Custom POS systems, websites, mobile apps, and 24/7 support. Aracane Labs delivers tailored software solutions for your business.",
+        "Custom POS systems, websites, mobile apps, and 24/7 support. Arcane Labs delivers tailored software solutions for your business.",
 };
 
 export default function ServicesPage() {

@@ -60,7 +60,7 @@ export default function Contact() {
 
                         <h3 className="text-3xl font-semibold mb-6">Let&apos;s talk about your next project.</h3>
                         <p className="text-gray-400 mb-10 leading-relaxed text-lg">
-                            Whether you need a full enterprise system, a mobile app, or a simple website, Aracane Labs provides cutting-edge solutions tailored just for you.
+                            Whether you need a full enterprise system, a mobile app, or a simple website, Arcane Labs provides cutting-edge solutions tailored just for you.
                         </p>
 
                         <div className="flex flex-col gap-6">

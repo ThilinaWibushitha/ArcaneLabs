@@ -109,7 +109,7 @@ export default function Services() {
                 >
                     <Image
                         src="/images/supermarket-worker-measuring-selling-meat-customer.jpg"
-                        alt="Aracane Labs POS in Action"
+                        alt="Arcane Labs POS in Action"
                         fill
                         className="object-cover opacity-60"
                     />

@@ -22,6 +22,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                        <span className="sr-only">Arcane Labs - </span>
                         Custom Software,
                         <br />
                         <span className="text-gradient">Made for You!</span>
@@ -54,7 +55,7 @@ export default function Hero() {
                     <div className="relative w-full h-full max-w-md">
                         <Image
                             src="/logo.png"
-                            alt="Aracane Labs Robot Logo"
+                            alt="Arcane Labs Robot Logo"
                             fill
                             className="object-contain drop-shadow-[0_0_30px_rgba(68,172,255,0.6)]"
                             priority

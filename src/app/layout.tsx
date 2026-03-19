@@ -5,30 +5,46 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://arcanelabs.lk"),
+  metadataBase: new URL("https://www.arcanelabs.lk"),
+  alternates: {
+    canonical: "/",
+  },
   title: {
-    default: "Aracane Labs | Custom Software, Made for You!",
-    template: "%s | Aracane Labs",
+    default: "Arcane Labs | Custom Software, Web & Mobile App Development",
+    template: "%s | Arcane Labs",
   },
   description:
-    "Aracane Labs builds custom POS systems, websites, and mobile apps for businesses in Sri Lanka. Innovate. Automate. Succeed.",
+    "Arcane Labs (ArcaneLabs) builds custom POS systems, websites, and mobile apps for businesses in Sri Lanka. Innovate. Automate. Succeed.",
+  applicationName: "Arcane Labs",
+  category: "technology",
   keywords: [
-    "custom software",
-    "POS systems",
-    "web development",
-    "mobile apps",
-    "Sri Lanka",
-    "Aracane Labs",
+    "arcanelabs",
+    "arcanelabs.lk",
+    "Arcane Labs",
+    "Arcane Labs",
+    "ArcaneLabs",
+    "ArcaneLabs.lk",
+    "custom software Sri Lanka",
+    "POS systems Sri Lanka",
+    "web development Sri Lanka",
+    "mobile apps Sri Lanka",
     "software company",
+    "software agency",
   ],
-  authors: [{ name: "Aracane Labs" }],
-  creator: "Aracane Labs",
+  authors: [{ name: "Arcane Labs", url: "https://www.arcanelabs.lk" }],
+  creator: "Arcane Labs",
+  publisher: "Arcane Labs",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: "Aracane Labs | Custom Software, Made for You!",
+    title: "Arcane Labs | Custom Software, Web & Mobile App Development",
     description:
-      "We build custom POS systems, websites, and mobile apps tailored to your business needs.",
-    url: "https://arcanelabs.lk",
-    siteName: "Aracane Labs",
+      "We build custom POS systems, websites, and mobile apps tailored to your business needs. Partner with Arcane Labs today.",
+    url: "https://www.arcanelabs.lk",
+    siteName: "Arcane Labs",
     locale: "en_US",
     type: "website",
     images: [
@@ -36,16 +52,17 @@ export const metadata: Metadata = {
         url: "/logo.png",
         width: 512,
         height: 512,
-        alt: "Aracane Labs Logo",
+        alt: "Arcane Labs Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aracane Labs | Custom Software, Made for You!",
+    title: "Arcane Labs | Custom Software, Web & Mobile App Development",
     description:
       "We build custom POS systems, websites, and mobile apps tailored to your business needs.",
     images: ["/logo.png"],
+    creator: "@arcanelabs",
   },
   robots: {
     index: true,
@@ -62,7 +79,8 @@ export const metadata: Metadata = {
     google: "Q_YoMe3RC3c_cGGCuVZ1u7iG2TiXisk3imogA5QLBxA",
   },
   icons: {
-    icon: "/logo.png",
+    icon: "/br_img_rounded.png",
+    apple: "/br_img_rounded.png",
   },
 };
 
