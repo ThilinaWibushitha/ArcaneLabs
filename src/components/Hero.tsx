@@ -22,13 +22,18 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                        <span className="sr-only">Arcane Labs - </span>
+                        Arcane Labs —{" "}
+                        <br />
                         Custom Software,
                         <br />
                         <span className="text-gradient">Made for You!</span>
                     </h1>
-                    <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light tracking-wide">
+                    <p className="text-xl md:text-2xl text-gray-300 mb-4 font-light tracking-wide">
                         Innovate. Automate. Succeed.
+                    </p>
+                    <p className="text-sm md:text-base text-gray-400 mb-8 max-w-lg leading-relaxed">
+                        ArcaneLabs is a Sri Lankan software company crafting custom POS systems,
+                        ERP solutions, websites, and mobile apps that help businesses grow.
                     </p>
                     <div className="flex gap-4">
                         <a
